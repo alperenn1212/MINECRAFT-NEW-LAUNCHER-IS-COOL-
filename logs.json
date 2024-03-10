@@ -1,0 +1,18 @@
+{
+    "Command": "GreenBrine",
+    "download": "GreenBrine.folder",
+    "Version": "1.2455",
+    "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+    "source": {"type": "GreenBrine"},
+    "name": "SpyGreen",
+    "config": {"github-expose-hostname": true},
+    "version": "1,2455",
+    "require": {"download": "GreenBrine"},
+    "features": "README.txt",
+    "postStartCommand": "GreenBrine.download",
+    "workspaceFolder": "GreenBrine.folder",
+    "build": {"cacheFrom": "GreenBrine"},
+    "file": "GreenBrine",
+    "context": "GreenBrine",
+    "init": true
+}
